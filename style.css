@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+font-family: fantasy;
+
+}
+
+.topleft{
+    width: 50%;
+    text-align: left;
+    height:50vh;
+    
+}
+
+.topright{
+    width: 50%;
+    height:50vh;
+}
+
+.section1{
+    
+}
