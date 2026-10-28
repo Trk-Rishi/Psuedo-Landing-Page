@@ -7,12 +7,13 @@
     <link href="style.css" rel="stylesheet">
     <link href="utility.css" rel="stylesheet">
 </head>
-<body>
+<body class="overflow-x-hidden">
+   
     <div class="container mx-auto">
         <header>
             <nav class="flex justify-between">
-                <div class=" text-blue fontbold flex items-center fontbold">
-                    Website Name
+                <div class="logo text-blue fontbold flex items-center fontbold">
+                   Tanmay's Gym
                 </div>
                 <ul class="navbar flex items-center">
                 
@@ -20,6 +21,7 @@
                     <li><u>About</u></li>
                     <li><u>Services</u></li>
                     <li><u>Contact Us</u></li>
+                    <li><button class="btn">Join Now</button></li>
                     
                 </ul>
             </nav>
@@ -28,23 +30,28 @@
         <main class="min-h-screen">
                <section class="section1">
                     <div class="flex">
-                       <div class="topleft flex justify-center flex-col px-2">
-                            <h1 class="my-1">This is the best landing page</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                       <div class="topleft flex flex-col px-2">
+                        <img src="dumbell.png" alt="icon" width="100px" class="dumbellimg">    
+                        <h1 class="my-1 h1 text-center">This is the best landing page</h1>
+                            <p class="p1 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                              Officiis earum tempora eum magnam minima aperiam ipsa pariatur deserunt ipsam labore expedita 
                              deleniti quis, ducimus vel adipisci perspiciatis necessitatibus impedit itaque aut voluptatum animi
                              architecto ratione?</p>
                         </div>
-                        <div class="topright"></div>
+                        <div class="topright">
+                            <img class="mainimg" srcset="gym.png 1x, gym-2x.png 2x" src="gym.png" alt="GYM">
+                        </div>
                     </div>
+               </section>
+               <hr>
+               <section class="section2">
+                <h1 class="text-center">Pricing</h1>
                </section>
                <hr>
                <section></section>
                <hr>
-               <section></section>
-               <hr>
         </main>
-        <footer>This is Footer</footer>
+        <footer>This is NOT VISIBLE SOMEHOW ?!?!?</footer>
     </div>
 </body>
 </html>
