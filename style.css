@@ -4,9 +4,7 @@
    
 }
 
-body{
-    
-}
+
 
 .container{
     max-width: 80vw;
@@ -20,14 +18,18 @@ font-family: fantasy;
 .topleft{
     width: 50%;
     text-align: left;
-    height:50vh;
+    height:70vh;
     margin-left: 31px;
     
 }
 
+
+.section1{
+    min-height: 70vh;
+}
 .topright{
     width: 50%;
-    height:50vh;
+    height:70vh;
 }
 
 .logo{
@@ -36,22 +38,61 @@ font-family: fantasy;
 }
 
 .mainimg{
-    height: 130vh;
+    
+    height: 70vh;
 }
 
 .dumbellimg{
     align-self: center;
-    padding-top: 35px;
-    width: 200px;
-    padding-left: 30px;
+    padding-top: 50px;
+    width: 150px;
+    padding-left: 15px;
 }
 
 .p1{
-    font-size: 40px;
+    font-size: 20px;
     
 }
 
 .h1{
-    font-size: 80px;
+    font-size: 40px;
     padding-left: 0px;
+}
+
+.section2 h1{
+    font-size: 2.5rem;
+}
+
+.section2{
+    padding-left: 73px;
+    padding-right: 63px;
+}
+
+.section2 p{
+    font-size: 1rem;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.box{
+    padding: 8px 0px;
+    margin: 12px 22px;
+    width: 20vw;
+    text-align: center;
+    border: 5px solid rgb(89, 112, 227);
+    border-radius: 20px;
+}
+
+
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.box h2{
+    padding: 14px 8px;
 }
