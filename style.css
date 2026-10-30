@@ -42,9 +42,13 @@ font-family: fantasy;
     height: 70vh;
 }
 
+.ignore{
+    color: white;
+}
+
 .dumbellimg{
     align-self: center;
-    padding-top: 50px;
+    padding-top: 20px;
     width: 13vw;
     padding-left: 6px;
 }
@@ -93,9 +97,6 @@ font-family: fantasy;
     margin: 12px 2px;
 }
 
-.box h2{
-    padding: 14px 8px;
-}
 
 .plantable{
     display: flex;
@@ -113,6 +114,7 @@ font-family: fantasy;
 .section3{
     padding-left: 73px;
     padding-right: 63px;
+    max-height: 90vh;
 }
 
 .section3 h2{
@@ -142,5 +144,35 @@ font-family: fantasy;
 
 footer{
     padding: 23px;
+    
     text-align: center;
+}
+
+.buttons{
+    margin: 0px 100px;
+}
+
+.deal{
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px 10px;
+}
+
+.box h2{
+    border-bottom: 5px solid rgb(89, 112, 227);
+    padding-bottom: 10px;
+}
+
+.section4 h2{
+    font-size: 2.5rem;
+}
+
+
+
+.topleft1{
+    height: 40vh;
+}
+
+.topleft1 p{
+    padding: 10px 0px;
 }
